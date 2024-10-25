@@ -106,6 +106,7 @@ function newGame(){
         lastResult.innerHTML = `${11-numguess}`
         userInput.removeAttribute('disabled')
         startOver.removeChild(p)
+        document.querySelector('.lowOrHi').innerHTML = ' '
         playGame = true
     })
 }
